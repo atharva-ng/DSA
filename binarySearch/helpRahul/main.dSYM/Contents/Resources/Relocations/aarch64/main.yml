@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/atharva_main/Programing_and_Development/Scripts/CppPracticeVSCode/DSA/binarySearch/helpRahul/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z12binarySearchiPii, symObjAddr: 0x0, symBinAddr: 0x100003AD8, symSize: 0x17C }
+  - { offsetInCU: 0x4645, offset: 0x4645, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x2F4, symBinAddr: 0x100003DCC, symSize: 0x58 }
+  - { offsetInCU: 0x4685, offset: 0x4685, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x3D0, symBinAddr: 0x100003EA8, symSize: 0x2C }
+  - { offsetInCU: 0x6FF2, offset: 0x6FF2, size: 0x8, addend: 0x0, symName: __Z12binarySearchiPii, symObjAddr: 0x0, symBinAddr: 0x100003AD8, symSize: 0x17C }
+  - { offsetInCU: 0x7064, offset: 0x7064, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x17C, symBinAddr: 0x100003C54, symSize: 0x14C }
+  - { offsetInCU: 0x718C, offset: 0x718C, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x2C8, symBinAddr: 0x100003DA0, symSize: 0x2C }
+  - { offsetInCU: 0x71BE, offset: 0x71BE, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x34C, symBinAddr: 0x100003E24, symSize: 0x84 }
+  - { offsetInCU: 0x722A, offset: 0x722A, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x3FC, symBinAddr: 0x100003ED4, symSize: 0x38 }
+...

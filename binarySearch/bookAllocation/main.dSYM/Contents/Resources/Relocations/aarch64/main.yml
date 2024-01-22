@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/atharva_main/Programing_and_Development/Scripts/CppPracticeVSCode/DSA/binarySearch/bookAllocation/main'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z8numPagesPiiii, symObjAddr: 0x0, symBinAddr: 0x100003958, symSize: 0x134 }
+  - { offsetInCU: 0x4645, offset: 0x4645, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x3B0, symBinAddr: 0x100003D08, symSize: 0x58 }
+  - { offsetInCU: 0x4685, offset: 0x4685, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiEERKT_S3_S3_, symObjAddr: 0x408, symBinAddr: 0x100003D60, symSize: 0x2C }
+  - { offsetInCU: 0x46C8, offset: 0x46C8, size: 0x8, addend: 0x0, symName: __ZNSt3__13minB7v160006IiNS_6__lessIiiEEEERKT_S5_S5_T0_, symObjAddr: 0x434, symBinAddr: 0x100003D8C, symSize: 0x54 }
+  - { offsetInCU: 0x475D, offset: 0x475D, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x540, symBinAddr: 0x100003E98, symSize: 0x2C }
+  - { offsetInCU: 0x70CA, offset: 0x70CA, size: 0x8, addend: 0x0, symName: __Z8numPagesPiiii, symObjAddr: 0x0, symBinAddr: 0x100003958, symSize: 0x134 }
+  - { offsetInCU: 0x714A, offset: 0x714A, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x134, symBinAddr: 0x100003A8C, symSize: 0x250 }
+  - { offsetInCU: 0x72E9, offset: 0x72E9, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x384, symBinAddr: 0x100003CDC, symSize: 0x2C }
+  - { offsetInCU: 0x732F, offset: 0x732F, size: 0x8, addend: 0x0, symName: __ZNKSt3__16__lessIiiEclB7v160006ERKiS3_, symObjAddr: 0x488, symBinAddr: 0x100003DE0, symSize: 0x34 }
+  - { offsetInCU: 0x736F, offset: 0x736F, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x4BC, symBinAddr: 0x100003E14, symSize: 0x84 }
+  - { offsetInCU: 0x73DB, offset: 0x73DB, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x56C, symBinAddr: 0x100003EC4, symSize: 0x38 }
+...
