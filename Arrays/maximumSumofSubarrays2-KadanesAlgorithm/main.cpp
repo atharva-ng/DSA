@@ -5,6 +5,7 @@ using namespace std;
 int main()
 {
   int array[]{-4, -1, -3, -2, -6, -2, -8, -4, -7};
+  // int array[]{-4, 1, 3, -2, 6, 2, -1, -4, -1};
 
   int size{9};
   // int left{-1}, right{-1};
