@@ -1,46 +1,50 @@
 #include <iostream>
+#include <vector>
 
 using namespace std;
 
-// float sqrt(int n, int p)
-// {
-//   int start{}, end{n}, mid{};
-//   float ans{};
-//   while (start <= end)
-//   {
-//     mid = (start + end) / 2;
-//     if (mid * mid == n)
-//     {
-//       return mid;
-//     }
-//     else if (mid * mid < n)
-//     {
-//       ans = mid;
-//       start = mid + 1;
-//     }
-//     else
-//     {
-//       end = mid - 1;
-//     }
-//   }
-//   float inc{0.1};
-//   for (int j{}; j < p; j++)
-//   {
-//     while (ans * ans <= n)
-//     {
-//       ans = ans + inc;
-//     }
-//     ans = ans - inc;
-//     inc = inc / 10;
-//   }
-//   return ans;
-// }
+int search(vector<int> nums, int target)
+{
+  int l{0}, h{static_cast<int>(size(nums)) - 1}, mid{};
+  while (l <= h)
+  {
+    mid = (l + h) / 2;
+    if (nums.at(mid) == target)
+    {
+      return mid;
+    }
+    else if (nums.at(l) < nums.at(mid))
+    {
+      if (target >= nums.at(l) && target < nums.at(mid))
+      {
+        h = mid - 1;
+      }
+      else
+      {
+        l = mid + 1;
+      }
+    }
+    else if (nums.at(h) > nums.at(mid))
+    {
+      if (target > nums.at(mid) && target <= nums.at(h))
+      {
+        l = mid + 1;
+      }
+      else
+      {
+        h = mid - 1;
+      }
+    }
+  }
+  return -1;
+}
 
-// int main()
-// {
-//   cout << "Enter Number: ";
-//   int n{};
-//   cin >> n;
+int main()
+{
+  vector<int> nums{4, 5, 6, 7, 0, 1, 2};
 
-//   cout << "Square Root: " << sqrt(n, 3) << endl;
-// }
+  int target{3};
+
+  int ans = search(nums, target);
+  cout << ans << endl;
+}
